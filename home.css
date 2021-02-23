@@ -26,6 +26,33 @@ section {
 }
 
 */
+
+body {
+    background-image: linear-gradient(90deg, #304352, #d7d2cc);  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    border: 5px solid rgb(150, 100, 200);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    background-image: repeating-linear-gradient(45deg, #e8e8e8 0, #e8e8e8 2em, #f6f6f6 2em, #f6f6f6 4em);
+    margin: 5vh 10vw;
+    padding: 3vh 1vw;
+    
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #container {
 	text-align: center;
 }
@@ -33,7 +60,7 @@ section {
 #text {
 	display: inline-block;
 	vertical-align: middle;
-	color: orange;
+	color: black;
 	letter-spacing: 2px;
 }
 
@@ -41,8 +68,8 @@ section {
 	display: inline-block;
 	vertical-align: middle;
 	width: 3px;
-	height: 50px;
-	background-color: orange;
+	height: 1em;
+	background-color: black;
 	animation: blink .75s step-end infinite;
 }
 
@@ -51,6 +78,6 @@ section {
 		background-color: transparent 
 	}
 	50% { 
-		background-color: orange; 
+		background-color: black; 
 	}
 }
