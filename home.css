@@ -67,6 +67,17 @@ h2 {
     border-radius: 20px;
 }
 
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: italic;
+}
+
 .right {
     padding-left: 12.5vw;
 }
@@ -86,35 +97,41 @@ a:visited {
     color: rgb(160, 248, 160);
     filter: blur(0px);
     transition: ease 2s;
-    text-shadow: 2px 7px 5px rgb(160, 248, 160);
+    text-shadow: 2px 8px 5px rgb(160, 248, 160);
 }
 
 .a_some:hover {
     color: rgb(166, 230, 255);
     filter: blur(0px);
     transition: ease 2s;
-    text-shadow: 2px 7px 5px rgb(166, 230, 255);
+    text-shadow: 2px 8px 5px rgb(166, 230, 255);
 }
 
 .a_other:hover {
     color: rgb(178, 157, 255);
     filter: blur(0px);
     transition: ease 2s;
-    text-shadow: 2px 7px 5px  rgb(178, 157, 255);
+    text-shadow: 2px 8px 5px  rgb(178, 157, 255);
 }
 
 .a_land:hover {
     color: rgb(212, 150, 150);
     filter: blur(0px);
     transition: ease 2s;
-    text-shadow: 2px 7px 5px rgb(212, 150, 150);
+    text-shadow: 2px 8px 5px rgb(212, 150, 150);
 }
 
 .a_here:hover {
     color: rgb(233, 228, 159);
     filter: blur(0px);
     transition: ease 2s;
-    text-shadow: 2px 7px 5px rgb(233, 228, 159);
+    text-shadow: 2px 8px 5px rgb(233, 228, 159);
+}
+
+.a_secret:hover {
+    color: black;
+    filter: blur(0px);
+    transition: ease 2s;
 }
 
 #container {
