@@ -93,6 +93,7 @@ a:visited {
     color: black;
 }
 
+
 .a_home:hover {
     color: rgb(160, 248, 160);
     filter: blur(0px);
